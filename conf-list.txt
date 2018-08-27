@@ -1,0 +1,53 @@
+systemctl |env| sysctl | gpasswd 与 groupmems | 
+
+
+/etc/hostname
+/etc/redhat-release
+/proc/meminfo
+
+/etc/resolv.conf #dns
+/etc/hosts    #本地域名
+/etc/sysconfig/network-scripts/
+
+~/.bashrc  #存放alias别名
+/etc/bashrc   /全局别名
+/etc/yum.repos.d/
+
+/etc/profile.d/
+/etc/profile
+
+
+/etc/fstab
+/etc/mtab
+
+/var/spool/cron/
+/var/log/cron
+/etc/cron*
+
+
+/etc/default/useradd
+/etc/login.defs
+/var/spool/mail
+/etc/passwd
+/etc/passwd-
+/etc/shadow
+/etc/shadow-
+/etc/group
+
+
+/etc/shells
+/etc/grub.d
+/etc/grub.conf
+/etc/grub2.cfg
+
+/proc
+/etc/chrony.conf
+/etc/firewalld/zones/*.xml
+
+/etc/exports
+
+/etc/httpd/conf/httpd.conf
+/etc/httpd/conf.d/*(一般自定义)
+/etc/httpd/conf.d/ssl.conf
+
+

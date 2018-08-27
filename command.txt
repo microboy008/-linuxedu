@@ -1,0 +1,62 @@
+virsh
+pwd
+ls
+touch
+cat
+uname
+less
+more
+alias
+tar -zcvf -jcvf -Jcvf -zcvPf 
+tar -zxvf  
+cp (-r) 
+mv 
+mkdir
+useradd
+userdel
+usermod
+groupadd
+gpasswd
+groupdel
+chmod
+chown
+setfacl
+getfacl
+crontab
+fdisk (m,p,n,d,q,w)
+partprobe
+mount
+umount
+lsblk
+fdisk
+vgcreate
+vgextend
+lvcreate
+lvextend
+mkfs.(ext3,ext4,xfs,)
+swapon (-s)
+swapoff 
+/dev/vdd1 swap swap defaults 0 0
+vgchange -s PE VG
+firewall-cmd
+firewall-config
+firewall-cmd --zone=public --add-service   //防火墙添加服务
+firewall-cmd --zone=public --add-port=port/(tcp,udp) //防火墙添加端口
+getsebool -a
+setsebool
+smbclint -U 用户名 服务器地址//查看samba服务器的共享信息
+showmount -e 服务器地址//查看远程服务器的nfs共享信息
+firewall-cmd --zone=public --add-forward-port=port=9527:proto=tcp:toport=80//防火墙端口转发
+---------------------------------------------------------------------------------------------
+docker 代理,新建立
+/etc/systemd/system/docker.service.d/http-proxy.conf
+输入：
+[Service]
+Environment="HTTP_PROXY=http://127.0.0.1:8118"
+systemctl daemon-reload
+sytemctl restart docker
+---------------------------------------------------------------------------------------------
+
+
+
+
