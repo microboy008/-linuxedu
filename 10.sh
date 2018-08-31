@@ -1,4 +1,5 @@
 #!/bin/bash
+slfkjslakj
 password=""
 origin="zxcvbnmasdfghjklqwertyuiopQWERTYUIOPASDFGHJKLZXCVBNM1234567890"
 for i in `seq $1`
