@@ -1,0 +1,1 @@
+UserParameter=count.line.passwd,wc -l /etc/passwd |awk '{print $1}'
