@@ -1,0 +1,1 @@
+pssh -i -h  hosts 'mysql -uroot -p123aaa...A -e "show slave status\G"' |egrep '(Slave_IO_Running:|Slave_SQL_Running:)'|awk '{print $2}'
