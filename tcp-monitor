@@ -1,0 +1,1 @@
+# netstat -anput|awk '$1=="tcp" {print $6,$1}'|sort |uniq -c |sort -rn
