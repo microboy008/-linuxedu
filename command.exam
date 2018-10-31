@@ -37,4 +37,5 @@ virsh define /root/.classroom.xml            //
 
 
 awk '{ip[$1]++}END{for(i in ip){print ip[i],i}}' /var/log/httpd/access_log |sort -nr
+netstat -anput|awk '$1=="tcp" {print $6,$1}'|sort |uniq -c |sort -rn
 
