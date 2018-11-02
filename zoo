@@ -1,0 +1,8 @@
+case $2 in
+stat)
+echo 'stat' |nc $1 2181|egrep 'Mode|Node count:' ;; 
+mntr)
+echo 'mntr' |nc $1 2181;;
+*)
+echo "Usage $0 hostname stat|mntr " 
+esac
